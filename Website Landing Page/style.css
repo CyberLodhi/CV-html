@@ -1,0 +1,848 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 57px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+}
+header div img{
+    margin-left: 84px;
+    margin-top: 22px;
+    
+}
+
+header div img:hover{
+    cursor: pointer;
+}
+
+header div ul {
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    margin-top: -22px;
+    margin-left: 220px;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+}
+
+.customline{
+    width: 100%;
+    height: -10px;
+    margin-top: 7px;
+    border: 1px solid rgb(224, 219, 219);
+}
+
+div ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+div ul li button{
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px;
+    border-radius: 15px;
+    height: 35px;
+    width: 70px;
+    margin-top: -7px;
+    background-color: #014CEC;
+    color: white;
+}
+
+div ul a:hover{
+    color: #014CEC;
+    transition: color 0.3s;
+}
+
+div ul li button:hover{
+    cursor: pointer;
+}
+
+header div ul li svg:hover{
+    cursor: pointer;
+}
+
+.wrapper{
+    width: 1200px;
+    display: flex;
+    padding: 10px 50px;
+    height: 620px;
+    margin: auto;
+    
+}
+
+.content h6{
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-top: 90px;
+    margin-left: 20px;
+    font-weight: 150;
+}
+.wrapper img{
+    margin-left: -10px;
+}
+
+.content p{
+    font-size: 29px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.content label{
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.content input{
+    border-radius: 7px;
+    height: 45px;
+    width: 300px;
+    margin-left: 20px;
+    border: 1px solid rgb(204, 201, 201);
+    
+}
+
+.content button{
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px;
+    border-radius: 22px;
+    height: 45px;
+    width: 100px;
+    margin-top: -7px;
+    background-color: #014CEC;
+    color: white;
+    
+}
+
+.content button:hover{
+    cursor: pointer;
+}
+
+.maincontent{
+    width: 1300px;
+    display: flex;
+    padding: 10px 50px;
+    height: 620px;
+    margin: auto;
+    background-color: #F5F8FF;
+    
+}
+
+
+.subcontent span{
+    font-size: 35px;
+    font-family: CoinbaseDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 450;
+
+}
+
+.subcontent p{
+    font-size: 30px;
+    font-family: CoinbaseDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 350;
+}
+
+.subcontent button{
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px;
+    border-radius: 22px;
+    height: 45px;
+    width: 170px;
+    margin-top: -7px;
+    background-color: #014CEC;
+    color: white;
+}
+
+.subcontent button:hover{
+    cursor: pointer;
+}
+
+.cards{
+    width: 450px;
+    height: 280px;
+    margin: auto;
+    margin-top: 60px;
+} 
+
+.cards div{
+    height: 190px;
+    width: 190px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-right: -100px;
+    margin-left: 50px;
+    box-shadow:  0 0 15px  rgb(117, 104, 104);
+}
+
+.cards div img{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+
+.cards div span{
+    margin-left: 22px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.cards div p{
+    margin-left: 22px;
+    font-family: CoinbaseDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 17px;
+    margin-bottom: 17px;
+}
+
+.cards div ul li{
+    display: inline-block;
+    list-style: none;
+    gap: -50px;
+    color: #098551;
+    font-size: 30px;
+    font-weight: 450;
+    margin-left: 22px;
+    font-family: CoinbaseDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.box{
+    width: 450px;
+    height: 280px;
+    margin: auto;
+    margin-top: 60px;
+    
+} 
+
+.box div{
+    height: 190px;
+    width: 190px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+    box-shadow:  0 0 15px  rgb(117, 104, 104);
+    
+}
+
+.box div img{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    margin-bottom: 7px;
+}
+
+.box div span{
+    margin-left: 22px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.box div p{
+    margin-left: 22px;
+    font-family: CoinbaseDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 17px;
+    margin-bottom: 17px;
+}
+
+.box div ul li{
+    display: inline-block;
+    list-style: none;
+    gap: -50px;
+    color: #098551;
+    font-size: 30px;
+    font-weight: 450;
+    margin-left: 22px;
+    font-family: CoinbaseDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.toy{
+    width: 450px;
+    height: 280px;
+    margin: auto;
+    margin-top: 60px;
+    
+} 
+
+.toy div{
+    height: 190px;
+    width: 190px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 35px;
+    box-shadow:  0 0 15px  rgb(117, 104, 104);
+    
+}
+
+.toy div img{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+
+.toy div span{
+    margin-left: 22px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.toy div p{
+    margin-left: 22px;
+    font-family: CoinbaseDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 17px;
+    margin-bottom: 17px;
+}
+
+.toy div ul li{
+    display: inline-block;
+    list-style: none;
+    gap: -50px;
+    color: #098551;
+    font-size: 30px;
+    font-weight: 450;
+    margin-left: 22px;
+    font-family: CoinbaseDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.chair{
+    width: 1200px;
+    display: flex;
+    padding: 10px 50px;
+    height: 620px;
+    margin: auto;
+    
+}
+
+.table h6{
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 150;
+    margin-bottom: 50px;
+}
+.chair img{
+    margin-left: -10px;
+    margin-right: -70px;
+}
+
+.table p{
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+
+.table label{
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.table input{
+    border-radius: 7px;
+    height: 45px;
+    width: 300px;
+    margin-left: 20px;
+    border: 1px solid rgb(204, 201, 201);
+    
+}
+
+.table button{
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px;
+    border-radius: 22px;
+    height: 45px;
+    width: 100px;
+    margin-top: -7px;
+    background-color: #014CEC;
+    color: white;
+    
+}
+
+.table button:hover{
+    cursor: pointer;
+}
+
+
+.paper{
+    width: 1351px;
+    display: flex;
+    padding: 10px 50px;
+    height: 260px;
+    margin: auto;
+    background-color: #1E2025;
+    
+}
+
+.phone img{
+    margin: auto;
+    justify-content: center;
+}
+.pen{
+    width: 800px;
+    height: 260px;
+    
+}
+
+.pen p{
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.pencil p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 75px;
+    margin-left: 10px;
+}
+
+.pencil button{
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 24px;
+    height: 50px;
+    width: 150px;
+    background-color: #E9EBEE;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+
+}
+
+.pencil button:hover{
+    cursor: pointer;
+}
+
+.phone{
+    height: 200px;
+    width: 1351px;
+    margin: auto;
+}
+
+.window{
+    width: 1200px;
+    display: flex;
+    padding: 10px 50px;
+    height: 620px;
+    margin: auto;
+    
+}
+
+
+.door h6{
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-left: 180px;
+    font-weight: 150;
+    margin-bottom: 20px;
+}
+.window img{
+    margin-left: 10px;
+}
+
+.door p{
+    font-size: 26px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 180px;
+    margin-top: 180px;
+    font-weight: 550;
+    color:  #014CEC ;
+}
+
+.door span{
+    font-size: 17px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 180px;
+}
+
+
+.door button{
+    font-size: 17px;
+    font-weight: 450;
+    border: 1px;
+    border-radius: 25px;
+    height: 50px;
+    width: 150px;
+    margin-top: -7px;
+    background-color: #014CEC;
+    color: white;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.door button:hover{
+    cursor: pointer;
+}
+
+
+.board{
+    width: 1351px;
+    display: flex;
+    padding: 10px 50px;
+    height: 260px;
+    margin: auto;
+    background-color: #0052FF;
+    
+}
+
+.pen{
+    width: 800px;
+    height: 260px;
+}
+
+.pen p{
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.pencil p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 75px;
+    margin-left: 10px;
+}
+
+.pencil button{
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 24px;
+    height: 50px;
+    width: 150px;
+    background-color: #E9EBEE;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+
+}
+
+.pencil button:hover{
+    cursor: pointer;
+}
+
+.key{
+    height: 350px;
+    width: 1351px;
+    margin: auto;
+}
+.key div{
+    height: 200px;
+    width: 447.5px;
+    background-color: #0052FF;
+    display: inline-block;
+
+}
+
+.key h6{
+    font-size: 100px;
+    margin-left: 100px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.key p{
+    font-size: 20px;
+    margin-left: 100px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
+
+
+.code{
+    height: 200px;
+    width: 1351px;;
+    margin: auto;
+}
+.code h6{
+    font-size: 40px;
+    color: rgb(2, 2, 2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 380;
+    margin-left: 80px;
+    margin-top: -70px;
+}
+
+.code p{
+    font-size: 20px;
+    color: rgb(2, 2, 2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.code div button{
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 24px;
+    height: 40px;
+    width: 110px;
+    background-color: #0052FF;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+    
+
+}
+
+.code div button:hover{
+    cursor: pointer;
+}
+
+.train{
+    height: 550px;
+    width: 1351px;;
+    display: flex;
+    margin-bottom: 90px;
+    margin: auto;
+}
+
+.train div{
+    height: 470px;
+    width: 265px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0 0 7px  rgb(184, 175, 175);
+    margin: auto;
+
+}
+
+.train div img{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.train div h6{
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 370;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.train div p{
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.fan{
+    height: 200px;
+    width: 1351px;;
+    background-color: #EEF0F3;
+    margin: auto;
+}
+.fan h6{
+    font-size: 40px;
+    color: rgb(2, 2, 2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 380;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+
+.fan p{
+    font-size: 20px;
+    color: rgb(2, 2, 2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.fan div button{
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 24px;
+    height: 40px;
+    width: 110px;
+    background-color: #0052FF;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+}
+
+.fan div button:hover{
+    cursor: pointer;
+}
+
+
+.plane{
+    height: 780px;
+    width: 1351px;;
+    display: flex;
+    margin-bottom: 90px;
+    background-color: #EEF0F3;
+    margin: auto;
+}
+
+.plane div{
+    height: 470px;
+    width: 520px;
+    margin: auto;
+
+}
+
+.plane div img{
+    margin-top: -90px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+.plane div h6{
+    margin-left: 35px;
+    font-size: 30px;
+    font-weight: 370;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.plane div p{
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.text{
+    width: 1200px;
+    display: flex;
+    padding: 10px 50px;
+    height: 920px;
+    margin: auto;
+    
+}
+
+.pin h6{
+    font-size: 34px;
+    font-family: sans-serif;
+    margin-top: 350px;
+    margin-left: -20px;
+    font-weight: 150;
+    margin-bottom: 10px;
+}
+.text img{
+    margin-left: -10px;
+    margin-right: -70px;
+}
+
+.pin p{
+    font-size: 21px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    margin-top: 37px;
+}
+
+.pin button{
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px;
+    border-radius: 24px;
+    height: 47px;
+    width: 130px;
+    margin-top: -7px;
+    background-color: #014CEC;
+    color: white;
+    margin-left: -20px;
+    
+}
+
+.pin button:hover{
+    cursor: pointer;
+}
+
+
+.list{
+    width: 1351px;
+    display: flex;
+    height: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.list div{
+    margin-top: 100px;
+    width: 300px;
+    height: 800px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.list div ul{
+    font-weight: 550;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
+.list div li{
+    font-weight: 150;
+    font-size: 17px;
+    list-style-type: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.list div ul:hover{
+    cursor: pointer;
+    color: #000000;
+}
+
+.list div ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.list div img{
+    margin-left: 40px;
+}
+
+.list div span{
+    margin-left: 7px;
+    color: #000000;
+    margin-top: 9px;
+}
+
+.list div svg{
+    margin-left: 40px;
+    margin-top: 9px;
+}
